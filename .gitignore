@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# AWS CLI credentials & config (never push these!)
+*.pem
+.aws/
+*.env
+.env*
+
+# Node modules (if using Serverless Framework/CDK)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build and dependency directories
+dist/
+build/
+.cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+
+# Serverless Framework
+.serverless/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Python virtual environments
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Local output or test data
+output/
+tmp/
+temp/
+*.csv
+*.parquet
+*.json
+
+# Ignore Athena query results if stored locally
+athena_query_results/
